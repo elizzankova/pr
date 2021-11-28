@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap"
+        rel="stylesheet">
+        <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    <link rel="stylesheet" href="rellax-master/rellax.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <title>PR</title>
+</head>
+
+<body>
+    
+    <section class="menu">
+        <div class="navv">
+            <div class="navbar">
+                <a class="a" href="#work">Для работодателя</a>
+                <a class="a" href="#who">Кто?</a>
+                <a href="#home"><img style="height: 70px;" src="img/Знакsign.png" alt=""></a>
+                <a class="a" href="#why">Почему?</a>
+                <a class="a" href="#plus">Достоинства</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="home" class="main">
+
+
+        <div class="wow animate__animated animate__fadeInUp animate__delay-1s main_text">
+            <h1>
+                Game-аналитик
+            </h1>
+            <br>
+            <h2 class="wow animate__animated animate__fadeInUp animate__delay-3s">
+                Профессия для тех, кто не особо шарит в программировании
+            </h2>
+        </div>
+        <a class="scroll-link" href="#who">
+            <svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
+            <g fill="none" fill-rule="evenodd">
+                <rect width="70" height="118" x="1.5" y="1.5" stroke="#FFF" stroke-width="3" rx="36"/>
+                <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#FFF"/>
+            </g>
+        </svg>
+        </a>
+    </section>
+    <section id="who" class="who">
+
+        <div class="container">
+            <div class="who_zagolovok ">
+                <p class="wow animate__animated animate__fadeInUp animate__delay-1s">
+                    Кто такой GAME-АНАЛИТИК?
+                </p>
+            </div>
+            <div class="who_row">
+                <div class="who_text">
+                    <h3 class="h3 wow animate__animated animate__fadeInLeft animate__delay-3s">
+                        Game-аналитик – «секретное оружие» геймдева.
+                    </h3>
+                    <br>
+                    <p class="who_p wow animate__animated animate__fadeInLeft animate__delay-3s">
+                        Это специалист, который высчитывает Х-фактор игры и находит ему применение. Главное требование –
+                        искренний интерес к видеоиграм, любовь к игровой индустрии, готовность постоянно исследовать,
+                        искать способы сделать пользовательский опыт еще лучше.
+                    </p>
+                </div>
+                <div class="who_ph "><img class="wow animate__animated animate__fadeInRight animate__delay-3s" style="height: 350px;" src="img/1.gif" alt=""></div>
+            </div>
+        </div>
+        
+    </section>
+<script>
+    jQuery(document).ready(function($){
+	
+	$('a.scroll-link').click(function(e){
+		e.preventDefault();
+		$id = $(this).attr('href');
+		$('body,html').animate({
+			scrollTop: $($id).offset().top -20
+		}, 750);
+	});
+	
+});
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    background-color: #040204;
+    color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+/*MENU*/
+
+.menu{
+    height: 80px;
+
+}
+.navv{
+    height: 80px;
+    width: 100%;
+    background-color: #040204;
+    position: fixed;
+    margin: 0 auto;
+    
+}
+.navbar {
+    background-color: #040204;
+    overflow: hidden;
+    text-align: center;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 60%; /* Full width */
+    margin: 0 auto;
+}
+
+.navbar a {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+    display: inline;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.a:hover {
+    border: 2px solid #ffffff; 
+    font-weight: 700;
+}
+
+  
+
+/*main*/
+.main{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgb(4, 2, 4) ), url("img/1.jpg") center no-repeat;
+    height: 110vh;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+}
+.main_text{
+    padding-top: 10%;
+    color: #fff;
+    font-family: 'Raleway';
+    width: 100%;
+    width: 550px;
+    margin: 0 auto;
+
+}
+h1:first-letter{
+    font-size: 155px; font-family: 'PT Serif Caption', serif;
+    }
+h1{
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 65px;
+    max-width: 400px;
+    height: 160px;
+    
+
+}
+h2{
+    max-width: 480px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+
+.mouse {
+
+	width: 100%;
+	height: 50px;
+}
+.scroll-link:hover{
+    transform: scale(1.2);
+}
+.scroll {
+	animation-name: scroll;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+	animation-iteration-count: infinite;
+	transform-origin: 50% 20.5px;
+	will-change: transform, opacity;
+	opacity: 1;
+}
+
+.scroll-link {
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	
+    transition: .3s ease-out;
+
+}
+
+@keyframes scroll {
+
+	0%, 20% {
+		transform: translateY(0) scaleY(1);
+	}
+
+	100% {
+		transform: translateY(36px) scaleY(2);
+		opacity: 0;
+	}
+
+}
+
+/*who*/
+
+.who{
+    height: 100vh;
+    
+}
+.who_zagolovok{
+    
+    font-size: 50px;
+    margin: 0 auto;
+    padding-top: 12%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.who_row{
+    display: flex;
+}
+.who_text{
+    width: 50%;
+    font-size: 25px;
+}
+.who_ph{
+
+}
+.h3{
+
+    max-width: 350px;
+}
+.who_p{
+
+    max-width: 550px;
+}
