@@ -42,6 +42,7 @@ p {
     background-color: #040204;
     position: fixed;
     margin: 0 auto;
+    z-index: 1000;
     
 }
 .navbar {
@@ -87,12 +88,13 @@ p {
     width: 100%;
     width: 550px;
     margin: 0 auto;
-
+    
 }
 h1:first-letter{
     font-size: 155px; font-family: 'PT Serif Caption', serif;
     }
 h1{
+    animation-iteration-count: infinite;
     margin: 0 auto;
     padding: 0;
     line-height: 1em;
@@ -101,7 +103,7 @@ h1{
     font-size: 65px;
     max-width: 400px;
     height: 160px;
-    
+
 
 }
 h2{
@@ -185,3 +187,76 @@ h2{
 
     max-width: 550px;
 }
+/*why*/
+.why{
+    background-color: #ffffff ;
+    height: 115vh;
+}
+.why_zag{
+    font-weight: 700;
+    animation-duration: 1s;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 50px;
+}
+.cc{
+    animation-duration: 2s;
+    color: rgb(0, 0, 0);
+    max-width: 1350px;
+    background-color: #ffffff;
+    height: 90vh;
+    margin: 0 auto;
+    padding: 0;
+    
+    
+}
+.works {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works__item {
+    
+    width: 450px;
+    height: 45vh;
+    overflow: hidden;
+}
+.works__item_zag{
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    text-transform: uppercase;
+    text-align: center;
+    margin: 26px 0;
+    font-size: 35px;
+    font-family: 'Forum', cursive;
+    font-weight: 700;
+}
+.works__item_zag:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 10px auto;
+    background-color: #ffffffb4;
+}
+.works__item_text{
+    font-size: 25px;
+    padding: 0 25px;
+    text-align: justify;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle
+}
+.ff{
+    transition: .3s ease-out;
+}
+.ff:hover{
+    background-color: #040204;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
