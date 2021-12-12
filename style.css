@@ -258,7 +258,7 @@ h2{
     background-color: #040204;
     color: #fff;
     cursor: pointer;
-    transform: scale(1.1);
+    
 }
 /*work*/
 .work{
@@ -288,12 +288,57 @@ h2{
     text-align: center;
 }
 .dd_row_zag{
+    font-weight: 600;
     color: #000000;
+    transition: ease-out 0.3s;
     font-size: 32px;
     text-align: center;
 }
 .dd_row_text{
+    font-weight: 500;
     color: #000000;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
+}
+.dd_row_zag:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/*stat*/
+.statistics{
+
+ }
+ 
+ .stat {
+    display: flex;
+ }
+ 
+ .stat__item { 
+    transition: 0.7s;
+    background-color: #040204b2;
+    flex: 1 1 0;
+    text-align: center;
+    color: #fff;
+    padding: 70px 25px;
+    border: 2px solid #040204;
+ }
+ 
+ .stat__count {
+    font-size:72px;
+    font-weight: 700;
+ 
+ }
+ 
+ .stat__text {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+ 
+ }
+.stat__item:hover{
+    background-color: #fff;
+    color: #040204;
+    cursor: pointer;
+
 }
