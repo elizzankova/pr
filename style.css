@@ -4,6 +4,7 @@ body {
     font-size: 14px;
     background-color: #040204;
     color: #fff;
+    overflow-x: hidden;
 }
 
 *,
@@ -50,7 +51,7 @@ p {
     overflow: hidden;
     text-align: center;
     top: 0; /* Position the navbar at the top of the page */
-    width: 60%; /* Full width */
+    width: 80%; /* Full width */
     margin: 0 auto;
 }
 
