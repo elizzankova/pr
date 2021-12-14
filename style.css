@@ -6,7 +6,9 @@ body {
     color: #fff;
     overflow-x: hidden;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 *,
 *:before,
 *:after {
